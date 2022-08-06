@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: 1px solid black;
+    margin-left:50px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+.cta button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+main{
+    display: flex;
+}
+
+.left{
+    width:50%;
+    height: 100px
+}
+
+.left-margin{
+     margin: 0px 50px 0px 50px;
+}
+
+.right{
+    width: 50%;
+    position: relative;
+}
+
+.input{
+   position: relative;
+   top: -20%;
+   left: 50%;
+   display: flex;
+   transform: translate(-50%, -50%);
+   width: 70%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.input input{
+    background-color: white;
+    border: none;
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+.icon{
+    color: white;
+}
+
+.icon-btn{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+}
+
+.ui-btn{
+    background-color:royalblue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    float: right;
+    padding: 4px 22px;
+    margin: 8px 0px 0px 10px;
+}
+
+.ui-flex{
+    display: flex;
+    margin-top: 50px;
+}
+
+.designing-p{
+    margin-top: 10px;
+}
+
+.hire{
+    display: flex;
+    margin: 15px 0px 15px 0px;
+}
+
+.hire-btn{
+    background-color: #ec331e;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    margin-right: 15px;
+}
+
+.project-p{
+    margin-top: 4px;
+}
+
+.word{
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.last-content{
+    display: flex;
+}
+
+.project{
+    margin-right: 40px;
+    line-height: 22px;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.know-btn{
+    background-color: yellow;
+    padding: 4px 12px;
+}
+
+.footer-left{
+    width: 40%;
+    margin:50px;
+    line-height: 30px;
+}
+
+.footer-right{
+    margin: 50px;
+    width: 60%;
+}
+
+td{
+    border-bottom: 1px solid white;
+    line-height: 30px;
+}
+
+.number{
+    margin-left: 100px;
+}
+
+table{
+    width: 100%;
+
+}
